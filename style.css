@@ -5,4 +5,62 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
+    
 }
+/*! utility */
+.debug
+{
+    background-color: lightblue;
+}
+
+
+/* ?header */
+header
+{
+    background-color: #64a5e8;
+}
+#logo
+{
+    width: 200px;
+    padding: 40px 0px 10px 10px;
+}
+/* ?main */
+main{
+    padding-left: 10px;
+}
+#info-1
+{
+    color: lightgray; 
+    font-size: 16px;
+    display: block;
+}
+#info-2
+{
+    color: lightgray;
+    font-size: 12px;
+    display: block;
+}
+main a
+{
+    text-decoration: none;
+}
+
+
+
+#tim-img
+{
+    margin-top: 20px; 
+}
+.tim-info
+{
+    font-size: 10px;
+    display: block;
+}
+
+p
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
