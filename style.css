@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:wght@300&display=swap');
 *
 {
@@ -12,21 +13,20 @@
 {
     background-color: lightblue;
 }
-.lighter-p
+.lighter
 {
-    background-color: #FFCCFF;
+    background-color: #eeff00;
 }
-
+/*? utility */
 .bg-blue
 {
     background-color: rgb(88, 88, 220);
-    color: whit;
+    color: white;
 }
 .bg-lightblue
 {
     background-color: lightblue;
 }
-
 div
 {
     padding: 10px 10px 10px 10px;
@@ -36,13 +36,13 @@ div
 header
 {
     background-color: #64a5e8;
-    background-image: url(../html-css-booleaner/img/pattern.png);
+    background-image: url(./img/pattern.png);
     background-size: 30%;
 }
 #logo
 {
     width: 200px;
-    padding: 40px 0px 5px 10px;
+    padding: 40px 0px 5px 25px;
 }
 
 /* ?main */
@@ -76,6 +76,18 @@ td, th
 {
     text-align: left;
     padding: 10px;
+    
+}
+
+ul
+{
+    padding-left: 20px;
+    border-spacing: 0px;
+}
+
+table
+{
+    border-spacing: 0px;
 }
 
 .square
@@ -83,23 +95,21 @@ td, th
     margin-top: 10px;
     height: 180px;
     width: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .sq1
 {
     background-image: url("../html-css-booleaner/img/monitor.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
 .sq2
 {
     background-image: url("../html-css-booleaner/img/graph.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 
-section h4
+h4 
 {
     padding: 20px;
     color: white;
