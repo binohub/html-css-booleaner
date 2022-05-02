@@ -39,12 +39,12 @@ header
 }
 /* ?main */
 
-#info-1
+.sub
 {
     color: lightgray; 
     font-size: 16px;
 }
-#info-2
+.sub2
 {
     color: lightgray;
     font-size: 12px;
@@ -54,12 +54,6 @@ main a
     text-decoration: none;
 }
 
-
-
-#tim-img
-{
-    margin-top: 20px; 
-}
 .tim-info
 {
     font-size: 10px;
@@ -68,4 +62,31 @@ main a
 div
 {
     padding: 10px 10px 10px 10px;
+}
+
+.square
+{
+    margin-top: 10px;
+    height: 180px;
+    width: 250px;
+}
+
+.sq1
+{
+    background-image: url("../html-css-booleaner/img/monitor.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sq2
+{
+    background-image: url("../html-css-booleaner/img/graph.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+section h4
+{
+    padding: 20px;
+    color: white;
 }
