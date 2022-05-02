@@ -17,6 +17,15 @@
     background-color: #FFCCFF;
 }
 
+.bg-blue
+{
+    background-color: rgb(88, 88, 220);
+    color: whit;
+}
+.bg-lightblue
+{
+    background-color: lightblue;
+}
 
 /* ?header */
 header
@@ -29,20 +38,16 @@ header
     padding: 40px 0px 10px 10px;
 }
 /* ?main */
-main{
-    padding-left: 10px;
-}
+
 #info-1
 {
     color: lightgray; 
     font-size: 16px;
-    display: block;
 }
 #info-2
 {
     color: lightgray;
     font-size: 12px;
-    display: block;
 }
 main a
 {
@@ -58,13 +63,9 @@ main a
 .tim-info
 {
     font-size: 10px;
-    display: block;
 }
 
-p
+div
 {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 10px 10px 10px;
 }
-
-
